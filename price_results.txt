@@ -1,0 +1,324 @@
+Year  Semester    Clase        Ruta     Linea_Aerea      
+2016  1 semester  Business     DAL-AMA  American Airlines     58.000000
+                                        Avianca              132.000000
+                                        KLM                  184.000000
+                               DAL-ATL  Aeromexico           218.000000
+                                        American Airlines    102.000000
+                               DAL-AUS  Aeromexico           250.000000
+                                        American Airlines    186.500000
+                                        KLM                  258.000000
+                               DAL-ELP  Avianca              173.000000
+                                        KLM                  153.000000
+                               DAL-GRR  Aeromexico           269.000000
+                                        American Airlines    221.000000
+                                        Avianca              149.000000
+                                        Southwest            266.000000
+                               DAL-HOU  Aeromexico            76.000000
+                                        American Airlines    121.000000
+                                        Avianca              172.000000
+                                        KLM                   62.000000
+                                        Southwest             71.000000
+                               DAL-LGA  American Airlines    215.000000
+                                        Avianca              191.000000
+                                        Otra                 146.000000
+                                        Southwest             97.000000
+                               DAL-OKC  American Airlines    181.000000
+                                        Southwest             89.000000
+                               DAL-PHX  Avianca              236.000000
+                                        Southwest            202.000000
+                               DAL-SLC  Avianca              117.000000
+                                        KLM                   75.000000
+                                        Otra                 160.000000
+                                        Southwest            224.000000
+                               DAL-TUL  KLM                  182.000000
+                                        Southwest            265.000000
+                  Economy      DAL-AMA  Aeromexico           178.000000
+                                        American Airlines    130.500000
+                                        KLM                   62.000000
+                                        Southwest             66.000000
+                               DAL-AUS  Aeromexico            97.000000
+                                        American Airlines    133.000000
+                                        KLM                  192.000000
+                                        Otra                  60.000000
+                                        Southwest             95.000000
+                               DAL-ELP  Aeromexico           245.000000
+                                        American Airlines    191.000000
+                               DAL-GRR  Aeromexico           253.000000
+                                        American Airlines     75.500000
+                                        Avianca               71.000000
+                                        KLM                  177.000000
+                               DAL-HOU  American Airlines     71.000000
+                                        KLM                   52.000000
+                               DAL-LGA  Aeromexico           207.000000
+                                        American Airlines    140.000000
+                                        Avianca              238.000000
+                               DAL-MDW  American Airlines    199.000000
+                                        Avianca               79.000000
+                                        KLM                   73.000000
+                                        Southwest            134.000000
+                               DAL-OKC  American Airlines    159.500000
+                                        Avianca              235.000000
+                                        Southwest             65.000000
+                               DAL-PHX  Aeromexico           118.000000
+                                        American Airlines    261.000000
+                                        Avianca               52.000000
+                                        KLM                  233.000000
+                                        Southwest            201.000000
+                               DAL-SLC  Aeromexico           252.000000
+                                        American Airlines    150.000000
+                                        Avianca              180.500000
+                                        KLM                  258.000000
+                                        Southwest            199.000000
+                               DAL-TUL  American Airlines    141.000000
+                                        Avianca              225.000000
+                                        Southwest            242.000000
+                  First Class  DAL-AMA  American Airlines    133.000000
+                                        Avianca              108.000000
+                               DAL-ATL  Otra                 265.000000
+                               DAL-AUS  Aeromexico           167.500000
+                                        KLM                  183.000000
+                                        Southwest            207.000000
+                               DAL-ELP  American Airlines    195.000000
+                               DAL-GRR  KLM                  135.000000
+                               DAL-LGA  Southwest            199.000000
+                               DAL-MDW  Aeromexico           148.000000
+                                        American Airlines    165.000000
+                                        Southwest            214.000000
+                               DAL-OKC  Aeromexico           190.000000
+                                        American Airlines    269.000000
+                                        KLM                  144.000000
+                                        Southwest             87.000000
+                               DAL-PHX  Avianca              217.000000
+                               DAL-SLC  Aeromexico           218.000000
+                                        Avianca              195.000000
+                                        KLM                  214.000000
+                                        Southwest             70.000000
+                               DAL-TUL  Aeromexico           104.000000
+                                        KLM                  204.000000
+                                        Southwest            103.000000
+      2 semester  Business     DAL-AMA  American Airlines    186.000000
+                               DAL-ATL  American Airlines    135.000000
+                                        Avianca              107.000000
+                                        KLM                  227.000000
+                                        Southwest            185.000000
+                               DAL-AUS  KLM                  191.000000
+                               DAL-ELP  Aeromexico           176.000000
+                                        American Airlines    114.000000
+                                        Avianca              212.000000
+                                        KLM                  162.000000
+                               DAL-GRR  American Airlines    180.000000
+                               DAL-HOU  Aeromexico           127.500000
+                                        Avianca               99.000000
+                               DAL-LGA  American Airlines    216.000000
+                                        Southwest            100.000000
+                               DAL-MDW  Aeromexico           239.000000
+                                        American Airlines     77.000000
+                                        Southwest            171.000000
+                               DAL-OKC  Aeromexico           142.000000
+                                        American Airlines    157.000000
+                                        Avianca              132.000000
+                                        Southwest             59.000000
+                               DAL-PHX  Southwest             81.000000
+                               DAL-SLC  KLM                  209.000000
+                               DAL-TUL  Aeromexico           162.500000
+                                        Avianca              251.000000
+                                        KLM                  184.000000
+                                        Southwest             61.000000
+                  Economy      DAL-AMA  Otra                  73.666667
+                               DAL-AUS  American Airlines     55.000000
+                                        KLM                   68.000000
+                                        Otra                 122.000000
+                                        Southwest            199.500000
+                               DAL-ELP  American Airlines    158.000000
+                               DAL-GRR  Southwest             63.000000
+                               DAL-HOU  American Airlines    196.000000
+                                        Avianca              181.000000
+                                        KLM                  177.000000
+                               DAL-LGA  Aeromexico           265.000000
+                                        American Airlines    126.000000
+                                        Southwest            199.000000
+                               DAL-MDW  Avianca              149.000000
+                                        Southwest             80.000000
+                               DAL-OKC  Aeromexico           242.000000
+                                        American Airlines    150.500000
+                                        Southwest            100.000000
+                               DAL-PHX  American Airlines    132.000000
+                                        Otra                 152.000000
+                               DAL-SLC  Aeromexico           173.000000
+                                        American Airlines     56.000000
+                                        KLM                  111.000000
+                                        Southwest            147.000000
+                               DAL-TUL  Aeromexico           151.000000
+                                        American Airlines    171.000000
+                                        Southwest            176.000000
+                  First Class  DAL-AMA  Aeromexico            67.000000
+                                        American Airlines     58.000000
+                                        Avianca              203.000000
+                                        Southwest            177.500000
+                               DAL-ATL  Avianca              115.500000
+                                        KLM                   81.000000
+                               DAL-AUS  American Airlines    108.000000
+                                        Avianca              252.000000
+                               DAL-ELP  Southwest             71.000000
+                               DAL-HOU  Aeromexico           233.000000
+                                        Avianca               71.000000
+                                        Southwest             92.000000
+                               DAL-MDW  Aeromexico           125.000000
+                                        KLM                  118.000000
+                                        Southwest            211.000000
+                               DAL-OKC  Southwest            153.000000
+                               DAL-SLC  Aeromexico           185.000000
+                                        American Airlines    239.000000
+                               DAL-TUL  Aeromexico           214.000000
+                                        Avianca              245.000000
+                                        KLM                  186.000000
+2017  1 semester  Business     DAL-AMA  Aeromexico           158.000000
+                                        Southwest            163.000000
+                               DAL-ATL  KLM                  167.000000
+                                        Southwest            131.500000
+                               DAL-AUS  American Airlines    110.666667
+                               DAL-ELP  Aeromexico           187.500000
+                                        American Airlines     95.000000
+                                        Avianca              101.000000
+                                        KLM                  159.000000
+                                        Southwest            154.000000
+                               DAL-GRR  Aeromexico           175.500000
+                                        KLM                  221.000000
+                               DAL-HOU  Southwest             61.000000
+                               DAL-LGA  Aeromexico            61.000000
+                                        American Airlines    142.000000
+                               DAL-MDW  Avianca              139.333333
+                                        KLM                   55.000000
+                                        Southwest            180.000000
+                               DAL-OKC  Aeromexico           121.000000
+                               DAL-PHX  American Airlines    150.000000
+                                        Southwest            227.000000
+                               DAL-SEA  Southwest            102.000000
+                               DAL-SLC  KLM                  217.000000
+                                        Southwest            165.000000
+                               DAL-TUL  Avianca              151.500000
+                                        KLM                  123.000000
+                  Economy      DAL-AMA  Aeromexico           236.000000
+                                        American Airlines    119.000000
+                                        KLM                  191.000000
+                                        Southwest            129.000000
+                               DAL-ATL  American Airlines    205.000000
+                                        Avianca               62.000000
+                                        Southwest             86.000000
+                               DAL-AUS  Avianca              172.000000
+                                        Otra                  84.000000
+                                        Southwest             84.000000
+                               DAL-ELP  KLM                   64.000000
+                                        Southwest             93.000000
+                               DAL-GRR  American Airlines    119.000000
+                                        Avianca              238.000000
+                                        KLM                  178.000000
+                               DAL-HOU  American Airlines    116.000000
+                                        Avianca               87.000000
+                                        KLM                  131.000000
+                                        Otra                  78.000000
+                               DAL-LGA  Southwest             62.000000
+                               DAL-MDW  American Airlines    254.000000
+                                        Southwest            109.666667
+                               DAL-OKC  American Airlines    104.000000
+                                        Avianca              245.000000
+                                        KLM                  237.000000
+                               DAL-PHX  Aeromexico           216.000000
+                                        KLM                  164.000000
+                                        Otra                 108.250000
+                               DAL-SLC  KLM                  152.000000
+                                        Southwest            162.000000
+                               DAL-TUL  American Airlines    141.000000
+                                        Southwest             93.000000
+                  First Class  DAL-AMA  Aeromexico            85.000000
+                                        Avianca              178.000000
+                                        KLM                   82.500000
+                               DAL-ATL  Aeromexico            58.000000
+                                        American Airlines    179.500000
+                                        Southwest            237.000000
+                               DAL-AUS  American Airlines    255.000000
+                               DAL-ELP  Aeromexico            52.000000
+                                        Southwest            176.000000
+                               DAL-GRR  Aeromexico           245.000000
+                                        KLM                  234.000000
+                               DAL-HOU  Avianca               91.500000
+                                        Southwest            222.000000
+                               DAL-LGA  Aeromexico           164.000000
+                               DAL-MDW  Aeromexico           166.000000
+                               DAL-OKC  Avianca              160.000000
+                               DAL-PHX  Southwest            169.000000
+                               DAL-SLC  Avianca              137.000000
+                                        Southwest            256.000000
+                               DAL-TUL  Aeromexico            55.000000
+                                        Avianca               78.000000
+                                        KLM                  242.500000
+      2 semester  Business     DAL-AMA  Aeromexico           204.000000
+                                        Avianca              206.000000
+                                        KLM                  121.000000
+                               DAL-ATL  Aeromexico           201.000000
+                               DAL-AUS  Aeromexico           122.000000
+                                        KLM                  183.666667
+                               DAL-ELP  Aeromexico            62.000000
+                               DAL-GRR  Southwest            220.000000
+                               DAL-HOU  American Airlines    232.000000
+                                        Southwest            169.000000
+                               DAL-LGA  American Airlines    112.000000
+                                        Avianca              233.000000
+                                        KLM                  127.000000
+                                        Southwest            142.000000
+                               DAL-MDW  Aeromexico           206.000000
+                                        Southwest            125.000000
+                               DAL-PHX  American Airlines    240.000000
+                                        Southwest            120.000000
+                               DAL-SLC  Aeromexico           150.666667
+                                        American Airlines    148.333333
+                                        KLM                  242.000000
+                                        Southwest            229.000000
+                               DAL-TUL  Aeromexico           145.500000
+                  Economy      DAL-AMA  Aeromexico            56.000000
+                               DAL-ATL  Aeromexico           223.000000
+                                        Avianca              147.000000
+                                        KLM                   55.000000
+                               DAL-AUS  Aeromexico           217.000000
+                                        American Airlines    248.000000
+                                        Southwest            167.000000
+                               DAL-ELP  KLM                  167.000000
+                               DAL-GRR  Avianca              118.000000
+                               DAL-MDW  Avianca              182.000000
+                                        KLM                  120.000000
+                               DAL-OKC  Aeromexico           182.500000
+                                        American Airlines    244.000000
+                                        Avianca              192.500000
+                               DAL-PHX  Aeromexico           238.000000
+                                        American Airlines    125.000000
+                                        KLM                  250.000000
+                                        Southwest            109.000000
+                               DAL-SLC  KLM                  219.000000
+                               DAL-TUL  Aeromexico           129.000000
+                                        Avianca              111.500000
+                                        Southwest            163.000000
+                  First Class  DAL-AMA  KLM                  213.500000
+                               DAL-ATL  Aeromexico            81.000000
+                                        KLM                  214.000000
+                                        Southwest            204.000000
+                               DAL-AUS  Aeromexico           250.000000
+                                        Avianca               79.000000
+                               DAL-HOU  Southwest             62.000000
+                               DAL-LGA  American Airlines    242.000000
+                                        Avianca              166.000000
+                                        KLM                  163.000000
+                                        Southwest             71.500000
+                               DAL-MDW  Aeromexico           139.500000
+                                        Avianca               75.000000
+                                        KLM                  167.000000
+                               DAL-OKC  American Airlines    260.000000
+                                        Avianca               93.333333
+                                        Southwest            143.333333
+                               DAL-PHX  Aeromexico           119.000000
+                                        Avianca              247.000000
+                               DAL-SLC  Avianca              163.000000
+                                        Southwest            170.500000
+                               DAL-TUL  Aeromexico           208.500000
+                                        Avianca              189.000000
+Name: Precio, dtype: float64
+None

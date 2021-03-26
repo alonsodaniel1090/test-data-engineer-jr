@@ -1,5 +1,5 @@
 import requests
-
+import pandas as pd
 
 
 
@@ -17,9 +17,9 @@ def main():
     info_with_airlines = assign_airline(flights_with_passengers)
     info_formatted = format_results(info_with_airlines)
 
-    print(info_formatted)
- 
-    
+    # Show the results
+    results = get_price_mean_by_semester(info_formatted)
+    print(results)
 
 
 
@@ -121,7 +121,7 @@ def assign_airline(flights):
     aerolineas = list(info_aerolineas.json())
 
     # Create a new dictionary with the value of other.
-    otro = {'Code':'OT', 'Linea_Area':'Otra'}
+    otro = {'Code':'OT', 'Linea_Aerea':'Otra'}
 
     # Assign the airline to the corresponding flight
     for f in flights_with_passengers:
@@ -156,6 +156,40 @@ def format_results(info_with_airlines):
     
     return info 
 
+def get_price_mean_by_semester(info_formatted):
+    '''
+    Calculates the mean price by year, 
+    semester, class, route an airline
+    and return a pandas dataframe
+    with the results.
+    ''' 
+    for info in info_formatted:
+        d = {}
+        date= info['Viaje']
+        year = date[-4:]
+
+        if '/'in date[:2]:
+            month = date[:1]
+        else:
+            month = date[:2]
+        if int(month) <= 6:
+            d['Year'] = year
+            d['Semester'] = '1 semester'
+        else:
+            d['Year'] = year
+            d['Semester'] = '2 semester'
+        info.update(d)
+
+    # Set the option to show all the results with pandas
+    pd.set_option('display.max_rows', None)
+
+    # Create the data frame
+    df = pd.DataFrame(info_formatted)
+    
+    # Calculate the mean with the parameters needed
+    results = df.groupby(['Year', 'Semester','Clase','Ruta','Linea_Aerea']).agg('Precio').mean()
+
+    print(results) 
 
 
 
