@@ -4,10 +4,15 @@ import requests
 
 
 def main():
+    ''' Main prrogram process '''
 
     passengers = get_passengers_info()
-    print(passengers)
+    flights  = get_flights_info()
 
+    print(flights)
+
+    #for i in passengers:
+    #    print(i['ID_Pasajero'])
 
 def get_passengers_info():
     '''
@@ -37,12 +42,24 @@ def get_passengers_info():
     return total_passengers
 
 
+def get_flights_info():
 
-'''
-url_vuelos_2016 = 'http://analytics.deacero.com/Api/GetApi/ApiVuelos2016/9ea3b836-6938-52dc-9626-a8e35db81dd5'
-url_vuelos_2017 = 'http://analytics.deacero.com/Api/GetApi/ApiVuelos2017/fc126260-1cf8-5a46-995d-ba639ff5868b' 
-    url_aerolineas = 'http://analytics.deacero.com/Api/GetApi/ApiLineaAerea/1a8d9e13-ce30-50fc-bf34-6490eb799a75'
-'''
+
+    url_flights_2016 = 'http://analytics.deacero.com/Api/GetApi/ApiVuelos2016/9ea3b836-6938-52dc-9626-a8e35db81dd5'
+    url_flights_2017 = 'http://analytics.deacero.com/Api/GetApi/ApiVuelos2017/fc126260-1cf8-5a46-995d-ba639ff5868b' 
+
+    info_2016 = requests.get(url_flights_2016)
+    info_2017 = requests.get(url_flights_2017)
+
+    flights_2016 = list(info_2016.json())
+    flights_2017 = list(info_2017.json())
+
+    total_flights = flights_2016 + flights_2017
+    
+    return total_flights
+ 
+#url_aerolineas = 'http://analytics.deacero.com/Api/GetApi/ApiLineaAerea/1a8d9e13-ce30-50fc-bf34-6490eb799a75'
+
 
 
 
