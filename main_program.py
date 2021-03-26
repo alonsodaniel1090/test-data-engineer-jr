@@ -6,16 +6,24 @@ import requests
 def main():
     ''' Main prrogram process '''
 
-    
+    # Get the information from passengers and flights 
     passengers = get_passengers_info()
     flights  = get_flights_info()
 
+    # Assign the passengers to their flights
     flights_with_passengers = assign_passenger_to_flight(passengers, flights)
 
+    # Assign the airline for each flight
+    info_with_airlines = assign_airline(flights_with_passengers)
+    info_formatted = format_results(info_with_airlines)
+
+    print(info_formatted)
+ 
+    
 
 
 
-
+    
 
 
 
@@ -72,8 +80,6 @@ def get_flights_info():
     
     return total_flights
  
-#url_aerolineas = 'http://analytics.deacero.com/Api/GetApi/ApiLineaAerea/1a8d9e13-ce30-50fc-bf34-6490eb799a75'
-
 
 def assign_passenger_to_flight(passengers, flights):
     '''
@@ -95,6 +101,63 @@ def assign_passenger_to_flight(passengers, flights):
     return flights_with_passengers
 
     
+def assign_airline(flights):
+    '''
+    Assign the airline to each flight, if the
+    airline is unknown, assign "other" as 
+    the value.
+    '''
+
+    # Create a copy of the flights
+    flights_with_passengers = flights.copy() 
+    
+    # Set the links to extract the information
+    url_aerolineas = 'http://analytics.deacero.com/Api/GetApi/ApiLineaAerea/1a8d9e13-ce30-50fc-bf34-6490eb799a75'
+
+    # Get the flights information from the apis 
+    info_aerolineas = requests.get(url_aerolineas)
+
+    # Create the information as a list
+    aerolineas = list(info_aerolineas.json())
+
+    # Create a new dictionary with the value of other.
+    otro = {'Code':'OT', 'Linea_Area':'Otra'}
+
+    # Assign the airline to the corresponding flight
+    for f in flights_with_passengers:
+        for a in aerolineas:
+            if f['Cve_LA'] in a.values():    
+                f.update(a)
+
+    # Check if no airline has been assigned
+    # and if it doesn't, assign other as
+    # the value
+    for f in flights_with_passengers:
+        if 'Linea_Aerea' not in f.keys():
+            f.update(otro)
+
+    return flights_with_passengers
+    
+    
+def format_results(info_with_airlines):
+    '''
+    Receives the the complete information
+    about the passenger, flight and airlines
+    and returns only the necessary columns
+    for the analysis.
+    '''
+    info = info_with_airlines.copy()
+
+    for i in info: 
+        del(i['Cve_LA']) 
+        del(i['Cve_Cliente']) 
+        del(i['ID_Pasajero']) 
+        del(i['Pasajero'])
+    
+    return info 
+
+
+
 
 
 
