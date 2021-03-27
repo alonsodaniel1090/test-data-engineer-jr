@@ -1,0 +1,26 @@
+Proceso realizado:
+
+    
+    Para unir la informacion de los vuelos con la informacion de 
+    su respectiva aerolinea, se identifico que la columna Cve_LA
+    en la informacion de los vuelos y la columna Code en la
+    informacion de las aerolinas se podian utilizar para hacer 
+    la union de la informacion.
+    
+
+    El tipo de proceso que considere para la union de los datos
+    es un vuelo con una aerolinea, debido a que un vuelo no
+    puede tener mas de una sola aerolina.
+
+    La union que utilize fue una adicion del los valores
+    del diccionario de la aerolinea a los valores del diccionario
+    del los vuelos cuando se encontrara la coincidencia entre
+    las claves descritas anteriormente.
+
+
+    Para dejar exclusivamente las columnas que se piden utilice
+    la funcion del() que borra las llaves que se especifiquen
+    dentro de un diccionario, por lo cual seleccione las columnas
+    que no eran necesarias y procedi a borrarlas mediante
+    un loop.
+      

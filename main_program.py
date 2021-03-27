@@ -12,7 +12,7 @@ def main():
 
     # Assign the passengers to their flights
     flights_with_passengers = assign_passenger_to_flight(passengers, flights)
-
+    
     # Assign the airline for each flight
     info_with_airlines = assign_airline(flights_with_passengers)
     info_formatted = format_results(info_with_airlines)
@@ -22,19 +22,16 @@ def main():
     print(results)
 
 
-
     
 
 
 
 def get_passengers_info():
     '''
-    Proceso:
-        1. Obtener la informacion de las urls.
-        2. Convertir a formato json.
-        3. Convertir la informacion a una lista de dictionarios.
-        4. Unir las dos listas para obtener una lista con toda
-        la informacion.
+     Get the flights information from the apis
+    provided, and returns a list with all
+    the information from the flights on
+    2016 and 2017 merged. 
     '''
 
     # Set the links to extract the information
@@ -153,6 +150,7 @@ def format_results(info_with_airlines):
         del(i['Cve_Cliente']) 
         del(i['ID_Pasajero']) 
         del(i['Pasajero'])
+        del(i['Code'])
     
     return info 
 

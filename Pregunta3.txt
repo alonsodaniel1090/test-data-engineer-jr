@@ -1,0 +1,24 @@
+Proceso realizado:
+
+    
+    Para unir a los pasajeros a su vuelo correspondiente, se identifico
+    que valor relacionaba cada uno pasajeros a su respectivo vuelo, 
+    se encontro que cada uno de los vuelos tiene un el id de algun 
+    pasajero que lo abordo, por lo cual la relacion fue entre el id
+    del pasajero en el diccionario vuelo y el id del pasajero en el 
+    diccionario del pasajero.
+
+    Una vez que se encontro cual era el valor que relacionaba el
+    pasajero con su vuelo, se identifico tambien que un pasajero
+    pudo haber tomado multiples vuelos en el ano, por lo cual
+    era necesario utilizar un esquema que encontrara el pasajero
+    que habia abordado ese vuelo y agregar la informacion del
+    pasajero al vuelo y no al reves.
+
+    La relacion se puede definir como pasajero con multiples
+    vuelos en un periodo dado, esto debido a que una persona
+    puede volar muchas veces en un periodo determinado, por lo
+    cual es necesario agregar la informacion de las personas
+    al vuelo.
+
+    

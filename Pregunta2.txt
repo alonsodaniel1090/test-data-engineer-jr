@@ -1,0 +1,27 @@
+Proceso realizado:
+
+    Primero se analizó la información de cada una de la urls para ver como
+    estaba estructurada la informacion  y que tipo de información se tenia 
+    que procesar, se identifico que era una lista de diccionarios con la 
+    información de los pasajeros y de los vuelos por ano,los dos años venían 
+    estructurados de la misma forma.
+
+    Se obtuvo la información importando la librería requests para
+    acceder al método get y obtener la información de las urls, después 
+    se convirtió la información a tipo json para poder acceder a los
+    valores como un diccionario en python.
+
+    Después de que se obtuvo la información, se procedió a convertir
+    la información a una lista de diccionarios para cada uno de los años,
+    esto permitió hacer una union de ambas listas para poder tener toda
+    la información en una sola lista (este procedimiento se realizo para
+    unir la informacion de los pasajeros y de los vuelos por separado).
+
+    Por ultimo se guardo la información de la listas resultantes
+    en una variable para poder acceder a ellas.
+
+    
+Anomalias
+ 
+    No fueron detectadas anomalías al hacer la union entre las dos listas 
+    con los métodos mencionados en en el proceso anterior.
