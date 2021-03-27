@@ -30,7 +30,7 @@ def get_passengers_info():
     '''
      Get the flights information from the apis
     provided, and returns a list with all
-    the information from the flights on
+    the information from the passengers on
     2016 and 2017 merged. 
     '''
 
